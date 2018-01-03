@@ -1,0 +1,27 @@
+{
+  "name": "markdown-previewer",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Markdown Previewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1moosey1/markdown-previewer.git"
+  },
+  "author": "Juan Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1moosey1/markdown-previewer/issues"
+  },
+  "homepage": "https://github.com/1moosey1/markdown-previewer#readme",
+  "dependencies": {
+    "marked": "^0.3.9",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
