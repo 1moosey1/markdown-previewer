@@ -1,0 +1,41 @@
+html, body, #app {
+
+    height: 95%;
+    background-color: #fdfcfa;
+}
+
+.container {
+
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.inline {
+
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+
+    padding: 15px;
+}
+
+.output {
+
+    text-align: left;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+.input {
+
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+
+    text-align: center;
+}
